@@ -70,7 +70,7 @@ const closeModal =
 
 setTimeout(() => {
   modal.classList.remove("hidden");
-}, 1000);
+}, 60000);
 
 closeModal.addEventListener("click", () => {
   modal.classList.add("hidden");
